@@ -5,7 +5,8 @@
 
 # 安装
 
-```
+``` Cargo
+[dependencies]
 set_derive = {git="https://github.com/qiongtubao/latte_rust_set_derive"}
 latte_verify = {git = "https://github.com/qiongtubao/latte_rust_verify"}
 ```
@@ -13,7 +14,7 @@ latte_verify = {git = "https://github.com/qiongtubao/latte_rust_verify"}
 
 # 例子
 
-```rs
+```rust
 extern crate set_derive;
 use set_derive::*;
 extern crate latte_verify;
