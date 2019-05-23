@@ -1,14 +1,17 @@
-#注意
-##暂时只支持对于整型和字符串的set （测试用例还不够全面）
 
-#安装
+# ``注意``
+
+`暂时只支持对于整型和字符串的set （测试用例还不够全面）`
+
+# 安装
+
 ```
 set_derive = {git="https://github.com/qiongtubao/latte_rust_set_derive"}
 latte_verify = {git = "https://github.com/qiongtubao/latte_rust_verify"}
 ```
 
 
-#例子
+# 例子
 
 ```rs
 extern crate set_derive;
@@ -36,16 +39,15 @@ fn main() {
             println!("err: {:?}", err);
         }
     }
-    // println!("struct {:?}",);
 }
 
 ```
 
-##支持类型
+## 支持类型
 
-##整型
+## 整型
 
-###支持属性
+### 支持属性
 * $gt 大于
 * $gte 大于等于
 * $lt 小于
@@ -55,6 +57,6 @@ fn main() {
 * $ne 不等于
 * $eq 等于
 
-##String
-###属性
+## String
+### 属性
 * $regex   正则表达式  这里用到的是[regex库](https://github.com/rust-lang/regex)
