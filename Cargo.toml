@@ -1,0 +1,14 @@
+[package]
+name = "set_derive"
+version = "0.1.0"
+authors = ["qiongtubao <810776886@qq.com>"]
+edition = "2018"
+
+[dependencies]
+quote = "*"
+syn = "*"
+proc-macro2 = "*"
+latte_verify = {git = "https://github.com/qiongtubao/latte_rust_verify"}
+latte_lib = {git ="https://github.com/qiongtubao/latte_rust_lib"}
+[lib]
+proc-macro = true   
